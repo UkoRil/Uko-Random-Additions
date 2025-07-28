@@ -1,0 +1,16 @@
+[
+{
+  "modid": "URA",
+  "name": "Uko's Random Additions",
+  "description": "Just some stuff that makes the game less grindy, i might add some more stuff later when i need them",
+  "version": "2.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Uko"],
+  "credits": "Special thanks for me hating grinding",
+  "logoFile": "modlogo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
