@@ -1,0 +1,22 @@
+{
+  "music.ba_constant_moderato": {
+    "category": "record",
+    "sounds": [{ "name": "music/ba_constant_moderato", "stream": true }]
+  },
+  "music.ba_honey_jam": {
+    "category": "record",
+    "sounds": [{ "name": "music/ba_honey_jam", "stream": true }]
+  },
+  "music.ba_mischievous_step": {
+    "category": "record",
+    "sounds": [{ "name": "music/ba_mischievous_step", "stream": true }]
+  },
+  "music.ba_shady_girls": {
+    "category": "record",
+    "sounds": [{ "name": "music/ba_shady_girls", "stream": true }]
+  },
+  "music.ba_unwelcome_school": {
+    "category": "record",
+    "sounds": [{ "name": "music/ba_unwelcome_school", "stream": true }]
+  }
+}

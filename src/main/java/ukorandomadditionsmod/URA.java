@@ -5,6 +5,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.Mod.EventHandler;
 import net.minecraftforge.common.config.Configuration;
+
 import ukorandomadditionsmod.crafting.WoolToString;
 import ukorandomadditionsmod.crafting.WitherSkullRecipe;
 import ukorandomadditionsmod.smelting.ZombieHeadToSkel;
@@ -13,7 +14,7 @@ import java.io.File;
 
 @Mod(modid = URA.MODID, name = URA.NAME, version = URA.VERSION)
 public class URA {
-    public static final String MODID = "URA";
+    public static final String MODID = "ura"; // keep lowercase to match sound domain
     public static final String NAME = "Uko's Random Additions";
     public static final String VERSION = "2.0";
 
@@ -33,6 +34,8 @@ public class URA {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
+        UItems.init();
+
         if (isWoolToStringEnabled()) {
             WoolToString.register();
         }
@@ -53,7 +56,7 @@ public class URA {
             config.save();
         }
     }
-    
+
     public static boolean isWoolToStringEnabled() {
         return enableWoolToString;
     }
