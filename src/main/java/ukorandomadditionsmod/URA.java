@@ -16,7 +16,7 @@ import java.io.File;
 public class URA {
     public static final String MODID = "ura"; // keep lowercase to match sound domain
     public static final String NAME = "Uko's Random Additions";
-    public static final String VERSION = "2.0";
+    public static final String VERSION = "2.1";
 
     private static final String RECIPES_CATEGORY = "recipes";
     private static Configuration config;
