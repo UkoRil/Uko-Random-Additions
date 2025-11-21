@@ -1,5 +1,65 @@
-item.ba_constant_moderato.name= Blue Archive Music - Constant Moderato
-item.ba_honey_jam.name= Blue Archive Music - Honey Jam
-item.ba_mischievous_step.name= Blue Archive Music - Mischievous Step
-item.ba_shady_girls.name= Blue Archive Music - Shady Girls
-item.ba_unwelcome_school.name= Blue Archive Music - Unwelcome School
+# Gems
+item.sapphire.name= Sapphire Gem
+item.ruby.name= Ruby Gem
+item.amber.name= Amber Gem
+item.steel.name= Steel
+
+# Block
+tile.rubyblock.name= Ruby Block
+tile.sapphireblock.name= Sapphire Block
+tile.amberblock.name= Amber Block
+tile.steelblock.name= Steel Block
+tile.amberOre.name= Amber Ore
+tile.rubyOre.name= Ruby Ore
+tile.sapphireOre.name= Sapphire Ore
+
+# Disc Names
+item.ItemDiscCM.name= Blue Archive Music - Constant Moderato
+item.ItemDiscHoneyJam.name= Blue Archive Music - Honey Jam
+item.ItemDiscMS.name= Blue Archive Music - Mischievous Step
+item.ItemDiscSG.name= Blue Archive Music - Shady Girls
+item.ItemDiscUS.name= Blue Archive Music - Unwelcome School
+
+# Disc Descriptions
+item.record.ItemDiscCM.desc= constant moderato
+item.record.ItemDiscHoneyJam.desc= honey jam
+item.record.ItemDiscMS.desc= mischievous step
+item.record.ItemDiscSG.desc= shady girls
+item.record.ItemDiscUS.desc= unwelcome school
+
+# Creative Tab
+itemGroup.uraTab=Uko's Random Additions
+
+# Armor
+item.amberHelmet.name=Amber Helmet
+item.amberChestplate.name=Amber Chestplate
+item.amberLeggings.name=Amber Leggings
+item.amberBoots.name=Amber Boots
+
+item.rubyHelmet.name=Ruby Helmet
+item.rubyChestplate.name=Ruby Chestplate
+item.rubyLeggings.name=Ruby Leggings
+item.rubyBoots.name=Ruby Boots
+
+item.sapphireHelmet.name=Sapphire Helmet
+item.sapphireChestplate.name=Sapphire Chestplate
+item.sapphireLeggings.name=Sapphire Leggings
+item.sapphireBoots.name=Sapphire Boots
+
+# Bows
+item.steelbow.name= Steel Compound Bow
+
+# Pickaxes
+item.steelpick.name= Steel Pickaxe
+item.rubypick.name= Ruby Pickaxe
+item.sapphirepick.name= Sapphire Pickaxe
+item.amberpick.name= Amber Pickaxe
+
+# Swords
+item.steelsword.name= Steel Sword
+item.rubysword.name= Ruby Sword
+item.sapphiresword.name= Sapphire Sword
+item.ambersword.name= Amber Sword
+
+# Items
+item.mineitallmodule.name= Mine-It-All Module

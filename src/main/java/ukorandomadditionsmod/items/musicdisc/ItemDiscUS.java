@@ -2,13 +2,14 @@ package ukorandomadditionsmod.items.musicdisc;
 
 import net.minecraft.item.ItemRecord;
 import net.minecraft.util.ResourceLocation;
+import ukorandomadditionsmod.URA;
 
 public class ItemDiscUS extends ItemRecord {
     public ItemDiscUS() {
-        super("ba_unwelcome_school");
-        this.setUnlocalizedName("ba_unwelcome_school");
+        super("ItemDiscUS");
+        this.setUnlocalizedName("ItemDiscUS");
         this.setTextureName("ura:disc5");
-        this.setCreativeTab(net.minecraft.creativetab.CreativeTabs.tabMisc);
+        this.setCreativeTab(URA.URATab);
     }
 
     @Override

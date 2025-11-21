@@ -9,10 +9,8 @@ public class WoolToString {
     private WoolToString() {}
 
     public static void register() {
-        // This recipe converts wool into string
-        GameRegistry.addRecipe(new ItemStack(Items.string, 4), 
-            "W", 
-            'W', new ItemStack(Blocks.wool, 1, 0) // 0 is the metadata for white wool
-        );
+        for (int meta = 0; meta < 16; meta++) {
+            GameRegistry.addShapelessRecipe(new ItemStack(Items.string, 2), new ItemStack(Blocks.wool, 1, meta));
+        }
     }
 }

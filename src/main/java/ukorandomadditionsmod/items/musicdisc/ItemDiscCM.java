@@ -2,13 +2,14 @@ package ukorandomadditionsmod.items.musicdisc;
 
 import net.minecraft.item.ItemRecord;
 import net.minecraft.util.ResourceLocation;
+import ukorandomadditionsmod.URA;
 
 public class ItemDiscCM extends ItemRecord {
     public ItemDiscCM() {
-        super("ba_constant_moderato");
-        this.setUnlocalizedName("ba_constant_moderato");
+        super("ItemDiscCM");
+        this.setUnlocalizedName("ItemDiscCM");
         this.setTextureName("ura:disc1");
-        this.setCreativeTab(net.minecraft.creativetab.CreativeTabs.tabMisc);
+        this.setCreativeTab(URA.URATab);
     }
 
     @Override

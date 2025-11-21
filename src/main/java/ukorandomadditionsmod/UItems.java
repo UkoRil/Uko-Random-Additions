@@ -19,10 +19,10 @@ private UItems() {
 }
 
 public static void init() {
-    GameRegistry.registerItem(DISC1, "disc1");
-    GameRegistry.registerItem(DISC2, "disc2");
-    GameRegistry.registerItem(DISC3, "disc3");
-    GameRegistry.registerItem(DISC4, "disc4");
-    GameRegistry.registerItem(DISC5, "disc5");
+    GameRegistry.registerItem(DISC1, "ItemDiscCM");
+    GameRegistry.registerItem(DISC2, "ItemDiscHoneyJam");
+    GameRegistry.registerItem(DISC3, "ItemDiscMS");
+    GameRegistry.registerItem(DISC4, "ItemDiscSG");
+    GameRegistry.registerItem(DISC5, "ItemDiscUS");
 }
 }
