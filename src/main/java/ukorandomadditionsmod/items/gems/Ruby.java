@@ -8,7 +8,7 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class Ruby extends Item {
     public static final ItemArmor.ArmorMaterial RUBY =
-        EnumHelper.addArmorMaterial("RUBY", 33, new int[]{2, 6, 5, 2}, 15);
+        EnumHelper.addArmorMaterial("RUBY", 33, new int[]{3, 8, 6, 3}, 20);
         
     public Ruby() {
         

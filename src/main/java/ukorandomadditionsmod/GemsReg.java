@@ -16,6 +16,7 @@ import ukorandomadditionsmod.items.swords.Steelsword;
 import ukorandomadditionsmod.items.swords.Sapphiresword;
 import ukorandomadditionsmod.items.swords.Ambersword;
 import ukorandomadditionsmod.items.Mineitallmodule;
+import ukorandomadditionsmod.items.steelcoke;
 
 public class GemsReg {
 
@@ -33,6 +34,7 @@ public class GemsReg {
     public static final Item SAPPHIRESWORD = new Sapphiresword();
     public static final Item RUBYSWORD = new Rubysword();
     public static final Item MINEITALLMODULE = new Mineitallmodule();
+    public static final Item STEELCOKE = new steelcoke();
 
     private GemsReg() {}
 
@@ -51,5 +53,6 @@ public class GemsReg {
         GameRegistry.registerItem(SAPPHIRESWORD, "sapphiresword");
         GameRegistry.registerItem(RUBYSWORD, "rubysword");
         GameRegistry.registerItem(MINEITALLMODULE, "mineitallmodule");
+        GameRegistry.registerItem(STEELCOKE, "steelcoke");
     }
 }

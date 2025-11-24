@@ -16,6 +16,8 @@ import ukorandomadditionsmod.smelting.ZombieHeadToSkel;
 import ukorandomadditionsmod.crafting.GemBlockRecipes;
 import ukorandomadditionsmod.crafting.armorrecipes;
 import ukorandomadditionsmod.crafting.toolsrecipe;
+import ukorandomadditionsmod.crafting.steelcokecraft;
+import ukorandomadditionsmod.smelting.steelcoketosteelingot;
 
 import java.io.File;
 
@@ -77,6 +79,8 @@ public class URA {
             GemBlockRecipes.register();
             armorrecipes.register();
             toolsrecipe.register();
+            steelcokecraft.register();
+            steelcoketosteelingot.register();
         }
     }
 
