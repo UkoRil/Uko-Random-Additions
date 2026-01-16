@@ -13,7 +13,12 @@ public class Ruby extends Item {
     public Ruby() {
         
         this.setUnlocalizedName("ruby");
-        this.setTextureName("ura:ruby");
         this.setCreativeTab(URA.URATab);
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:ruby");
+        } else {
+            this.setTextureName("ura:ruby2");
+        }
     }
 }

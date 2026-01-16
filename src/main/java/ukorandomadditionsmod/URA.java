@@ -25,12 +25,13 @@ import java.io.File;
 public class URA {
     public static final String MODID = "ura";
     public static final String NAME = "Uko's Random Additions";
-    public static final String VERSION = "3.0";
+    public static final String VERSION = "3.2";
 
     public static final CreativeTabs URATab = new UraTab("uraTab");
 
     private static final String RECIPES_CATEGORY = "recipes";
     private static final String ITEMS_CATEGORY = "items";
+    private static final String TEXTURES_CATEGORY = "textures";
     private static Configuration config;
 
     private static boolean enableWoolToString;
@@ -40,6 +41,7 @@ public class URA {
     private static boolean enableCustomOres;
     private static boolean enablemineitallmodulecraft;
     private static boolean enablecraftingitems;
+    public static boolean enable32x32texture;
 
     @EventHandler
     public static void preInit(FMLPreInitializationEvent event) {
@@ -91,6 +93,7 @@ public class URA {
         enableZombieHeadToSkel = config.get(RECIPES_CATEGORY, "Enable Zombie Head to Skeleton Furnace Recipe?", true).getBoolean(true);
         enableCustomDiscs = config.get(RECIPES_CATEGORY, "Enable Custom Music Discs?", true).getBoolean(true);
         enableCustomOres = config.get(ITEMS_CATEGORY, "Enable Custom Ores?", true).getBoolean(true);
+        enable32x32texture = config.get(TEXTURES_CATEGORY, "Enable 32x32 Textures?", false).getBoolean(true);
 
         if (config.hasChanged()) {
             config.save();
@@ -114,5 +117,8 @@ public class URA {
     }
     public static boolean isenablecraftingitemsEnabled() {
         return enablecraftingitems;
+    }
+    public static boolean is32x32Enabled() {
+        return enable32x32texture;
     }
 }

@@ -27,7 +27,12 @@ public class Ambersword extends ItemSword {
         super(AMBER);
         this.setUnlocalizedName("ambersword");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:ambersword");
+        
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:ambersword");
+        } else {
+            this.setTextureName("ura:ambersword2");
+        }
     }
 
     @Override

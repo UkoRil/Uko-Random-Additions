@@ -28,7 +28,12 @@ public class Sapphiresword extends ItemSword {
         super(SAPPHIRE);
         this.setUnlocalizedName("sapphiresword");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:sapphiresword");
+        
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:sapphiresword");
+        } else {
+            this.setTextureName("ura:sapphiresword2");
+        }
     }
 
     @Override

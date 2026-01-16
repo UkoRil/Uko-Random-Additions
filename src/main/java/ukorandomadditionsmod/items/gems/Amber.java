@@ -13,7 +13,12 @@ public class Amber extends Item {
     public Amber() {
 
         this.setUnlocalizedName("amber");
-        this.setTextureName("ura:amber");
         this.setCreativeTab(URA.URATab);
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:amber");
+        } else {
+            this.setTextureName("ura:amber2");
+        }
     }
 }

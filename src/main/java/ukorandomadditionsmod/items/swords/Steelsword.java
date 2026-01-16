@@ -23,7 +23,12 @@ public class Steelsword extends ItemSword {
         super(STEEL);
         this.setUnlocalizedName("steelsword");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:steelsword");
+        
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:steelsword");
+        } else {
+            this.setTextureName("ura:steelsword2");
+        }
     }
 
     @Override

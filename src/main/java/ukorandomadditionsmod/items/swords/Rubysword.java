@@ -28,7 +28,12 @@ public class Rubysword extends ItemSword {
         super(RUBY);
         this.setUnlocalizedName("rubysword");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:rubysword");
+        
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:rubysword");
+        } else {
+            this.setTextureName("ura:rubysword2");
+        }
     }
 
     @Override

@@ -26,9 +26,9 @@ public class BlockRuby extends Block {
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(net.minecraft.client.renderer.texture.IIconRegister reg) {
-        this.topIcon = reg.registerIcon("ura:rubyblock");
-        this.bottomIcon = reg.registerIcon("ura:rubyblockbot");
-        this.sideIcon = reg.registerIcon("ura:rubyblockside");
+        this.topIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "rubyblock" : "rubyblock2"));
+    this.bottomIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "rubyblockbot" : "rubyblockbot2"));
+    this.sideIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "rubyblockside" : "rubyblockside2"));
     }
 
     @Override

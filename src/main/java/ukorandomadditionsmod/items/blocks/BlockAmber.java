@@ -29,9 +29,9 @@ public class BlockAmber extends Block {
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(net.minecraft.client.renderer.texture.IIconRegister reg) {
-        this.topIcon = reg.registerIcon("ura:amberblock");
-        this.bottomIcon = reg.registerIcon("ura:amberblockbot");
-        this.sideIcon = reg.registerIcon("ura:amberblockside");
+        this.topIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "amberblock" : "amberblock2"));
+    this.bottomIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "amberblockbot" : "amberblockbot2"));
+    this.sideIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "amberblockside" : "amberblockside2"));
     }
 
     @Override

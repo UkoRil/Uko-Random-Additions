@@ -23,7 +23,12 @@ public class Sapphirepick extends ItemPickaxe {
         super(SAPPHIRE);
         this.setUnlocalizedName("sapphirepick");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:sapphirepick");
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:sapphirepick");
+        } else {
+            this.setTextureName("ura:sapphirepick2");
+        }
     }
 
     @Override

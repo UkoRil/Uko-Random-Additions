@@ -16,8 +16,8 @@ public class BlockSapphireOre extends Block {
         this.setResistance(5.0F);
         this.setStepSound(soundTypeStone);
         this.setBlockName("sapphireOre");
-        this.setBlockTextureName("ura:sapphireore");
         this.setCreativeTab(URA.URATab);
+        this.setBlockTextureName(URA.enable32x32texture ? "ura:sapphireore" : "ura:sapphireore2");
     }
 
     @Override

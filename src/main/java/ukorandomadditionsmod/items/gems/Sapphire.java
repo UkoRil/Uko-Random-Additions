@@ -13,7 +13,12 @@ public class Sapphire extends Item {
     public Sapphire() {
         
         this.setUnlocalizedName("sapphire");
-        this.setTextureName("ura:sapphire");
         this.setCreativeTab(URA.URATab);
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:sapphire");
+        } else {
+            this.setTextureName("ura:sapphire2");
+        }
     }
 }

@@ -26,9 +26,9 @@ public class BlockSapphire extends Block {
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(net.minecraft.client.renderer.texture.IIconRegister reg) {
-        this.topIcon = reg.registerIcon("ura:sapphireblock");
-        this.bottomIcon = reg.registerIcon("ura:sapphireblockbot");
-        this.sideIcon = reg.registerIcon("ura:sapphireblockside");
+        this.topIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "sapphireblock" : "sapphireblock2"));
+    this.bottomIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "sapphireblockbot" : "sapphireblockbot2"));
+    this.sideIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "sapphireblockside" : "sapphireblockside2"));
     }
 
     @Override

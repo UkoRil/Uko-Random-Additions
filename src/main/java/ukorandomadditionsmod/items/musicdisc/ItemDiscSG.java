@@ -8,8 +8,13 @@ public class ItemDiscSG extends ItemRecord {
     public ItemDiscSG() {
         super("ItemDiscSG");
         this.setUnlocalizedName("ItemDiscSG");
-        this.setTextureName("ura:disc4");
         this.setCreativeTab(URA.URATab);
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:disc4");
+        } else {
+            this.setTextureName("ura:disc4(2)");
+        }
     }
     
     @Override

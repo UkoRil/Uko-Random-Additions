@@ -8,8 +8,13 @@ public class ItemDiscHoneyJam extends ItemRecord {
     public ItemDiscHoneyJam() {
         super("ItemDiscHoneyJam");
         this.setUnlocalizedName("ItemDiscHoneyJam");
-        this.setTextureName("ura:disc2");
         this.setCreativeTab(URA.URATab);
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:disc2");
+        } else {
+            this.setTextureName("ura:disc2(2)");
+        }
     }
 
     @Override

@@ -16,8 +16,8 @@ public class BlockRubyOre extends Block {
         this.setResistance(5.0F);
         this.setStepSound(soundTypeStone);
         this.setBlockName("rubyOre");
-        this.setBlockTextureName("ura:rubyore");
         this.setCreativeTab(URA.URATab);
+        this.setBlockTextureName(URA.enable32x32texture ? "ura:rubyore" : "ura:rubyore2");
     }
 
     @Override

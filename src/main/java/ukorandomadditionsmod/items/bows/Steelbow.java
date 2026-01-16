@@ -64,11 +64,11 @@ public class Steelbow extends ItemBow {
     @Override
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister iconRegister) {
-        this.itemIcon = iconRegister.registerIcon(URA.MODID + ":" + "steelbow");
+        this.itemIcon = iconRegister.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "steelbow" : "steelbow2"));
         this.icons = new IIcon[3];
 
-        this.icons[0] = iconRegister.registerIcon(URA.MODID + ":" + "steelbow");
-        this.icons[1] = iconRegister.registerIcon(URA.MODID + ":" + "steelbowdraw1");
-        this.icons[2] = iconRegister.registerIcon(URA.MODID + ":" + "steelbowdrawfull");
+        this.icons[0] = iconRegister.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "steelbow" : "steelbow2"));
+        this.icons[1] = iconRegister.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "steelbowdraw1" : "steelbow2draw1"));
+        this.icons[2] = iconRegister.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "steelbowdrawfull" : "steelbow2drawfull"));
     }
 }

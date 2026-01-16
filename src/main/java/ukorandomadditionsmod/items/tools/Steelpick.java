@@ -16,7 +16,12 @@ public class Steelpick extends ItemPickaxe {
         super(STEEL);
         this.setUnlocalizedName("steelpick");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:steelpick");
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:steelpick");
+        } else {
+            this.setTextureName("ura:steelpick2");
+        }
     }
 
     @Override

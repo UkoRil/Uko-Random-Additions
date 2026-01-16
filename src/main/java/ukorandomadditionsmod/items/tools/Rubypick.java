@@ -23,7 +23,12 @@ public class Rubypick extends ItemPickaxe {
         super(RUBY);
         this.setUnlocalizedName("rubypick");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:rubypick");
+        
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:rubypick");
+        } else {
+            this.setTextureName("ura:rubypick2");
+        }
     }
 
     @Override

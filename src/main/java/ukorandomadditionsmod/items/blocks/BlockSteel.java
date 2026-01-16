@@ -26,12 +26,12 @@ public class BlockSteel extends Block {
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(net.minecraft.client.renderer.texture.IIconRegister reg) {
-        this.topIcon = reg.registerIcon("ura:steelblock");
-        this.bottomIcon = reg.registerIcon("ura:steelblockbot");
-        this.sideIcon = reg.registerIcon("ura:steelblockside");
+        this.topIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "steelblock" : "steelblock2"));
+    this.bottomIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "steelblockbot" : "steelblockbot2"));
+    this.sideIcon = reg.registerIcon(URA.MODID + ":" + (URA.enable32x32texture ? "steelblockside" : "steelblockside2"));
     }
 
-    @Override
+        @Override
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(int side, int meta) {
         if (side == 0) return bottomIcon;

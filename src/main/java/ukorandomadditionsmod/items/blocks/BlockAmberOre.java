@@ -16,8 +16,8 @@ public class BlockAmberOre extends Block {
         this.setResistance(5.0F);
         this.setStepSound(soundTypeStone);
         this.setBlockName("amberOre");
-        this.setBlockTextureName("ura:amberore");
         this.setCreativeTab(URA.URATab);
+        this.setBlockTextureName(URA.enable32x32texture ? "ura:amberore" : "ura:amberore2");
     }
 
     @Override

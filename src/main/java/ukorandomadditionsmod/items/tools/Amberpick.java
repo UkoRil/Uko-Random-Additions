@@ -23,7 +23,12 @@ public class Amberpick extends ItemPickaxe {
         super(AMBER);
         this.setUnlocalizedName("amberpick");
         this.setCreativeTab(URA.URATab);
-        this.setTextureName("ura:amberpick");
+
+        if (URA.enable32x32texture == true) {
+            this.setTextureName("ura:amberpick");
+        } else {
+            this.setTextureName("ura:amberpick2");
+        }
     }
 
     @Override
